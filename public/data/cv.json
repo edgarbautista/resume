@@ -1,0 +1,632 @@
+{
+   "home": {
+      "name": "Edgar Bautista",
+      "preTitle": "",
+      "title": "Software Engineer",
+      "about": "",
+      "media": null,
+      "imageIntervals": [1000],
+      "faces": [
+         "../resume/images/face_black.png",
+         "../resume/images/face_multi_color_1.png",
+         "../resume/images/face_multi_color.png",
+         "../resume/images/face_multi_color_1.png",
+         "../resume/images/face_multi_color.png",
+         "../resume/images/face_multi_color_1.png",
+         "../resume/images/face_red.png",
+         "../resume/images/face_blue.png", 
+         "../resume/images/face_green.png", 
+         "../resume/images/face_black.png", 
+         "../resume/images/face_black.png", 
+         "../resume/images/face_multi_color_1.png",
+         "../resume/images/face_multi_color.png",
+         "../resume/images/face_multi_color_1.png",
+         "../resume/images/face_multi_color.png",
+         "../resume/images/face_green.png",
+         "../resume/images/face_green.png",
+         "../resume/images/face_red.png",
+         "../resume/images/face_red.png",
+         "../resume/images/face_blue.png",
+         "../resume/images/face_blue.png",
+         "../resume/images/face_multi_color_1.png",
+         "../resume/images/face_multi_color.png",
+         "../resume/images/face_multi_color_1.png",
+         "../resume/images/face_multi_color.png",
+         "../resume/images/face_multi_color_1.png",
+         "../resume/images/face_multi_color.png"
+      ]
+
+   },
+   "backgroundImages": [
+      "../resume/images/background_rm_5.png",
+      "../resume/images/background_rm_4.png",
+      "../resume/images/background_rm_3.png",
+      "../resume/images/background_rm_2.png",
+      "../resume/images/background_rm_1.png",
+      "../resume/images/background_color.png",
+      "../resume/images/background_red.png",
+      "../resume/images/background_blue.png",
+      "../resume/images/background_green.png",
+      "../resume/images/background_black.png",
+      "../resume/images/background_all_black.png",
+      "../resume/images/background_rm_4.png",
+      "../resume/images/background_rm_3.png",
+      "../resume/images/background_rm_2.png",
+      "../resume/images/background_rm_1.png",
+      "../resume/images/background_green.png",
+      "../resume/images/background_all_green.png",
+      "../resume/images/background_red.png",
+      "../resume/images/background_all_red.png",
+      "../resume/images/background_blue.png",
+      "../resume/images/background_all_blue.png",
+      "../resume/images/background_color.png",
+      "../resume/images/background_rm_1.png",
+      "../resume/images/background_rm_2.png",
+      "../resume/images/background_rm_3.png",
+      "../resume/images/background_rm_4.png",
+      "../resume/images/background_rm_5.png"
+   ],
+   "intro": {
+      "bio": [
+         {
+            "header": "Education",
+            "items": [
+               {
+                  "header": "Georgia Institute of Technology (currently attending)",
+                  "section": {
+                     "header": "Master of Science in Computer Science",
+                     "list": [
+                        "Security and Networking: Intro To Info Security (C/C++/Bash/JS), Computer Networks and Network Security",
+                        "AI: Artificial Intelligence (Python) and Knowledge-Based AI (Fall 2020)",
+                        "General: Software Dev Process (Java), Graduate Intro to OS (C/C++) and Educ Tech-Foundations (Summer 2020)",
+                        "UI/UX: Human-Computer Interact",
+                        "Photography: Computational Photography (Python)"
+                     ]
+                  }
+               },
+               {
+                  "header": "Kennesaw State University",
+                  "section": {
+                     "header": "Software Engineering (Continued at GaTech)",
+                     "list": [
+                        "Foundations of Programming (Java), Foundations of Computer Architecture and Operating Systems, Data Structures & Algorithms (C++) and Mathematical Structures for Computer Science"
+                     ]
+                  }
+               },
+               {
+                  "header": "Kennesaw State University",
+                  "section": {
+                     "header": "Bachelor of Science, Biology",
+                     "list": []
+                  }
+               }
+            ]
+         }
+      ],
+      "profile": "no",
+      "about": {
+         "header": "For the past six years I have loved working on web and mobile applications. There’s never a dull moment as a software engineer. Whether it’s learning new languages, technologies, or spending countless hours finding a streamlined solution to a problem, there’s always room for improvement. I love my profession because there is always something new to learn and the knowledge that you acquired can be applied across the board to different applications.",
+         "bulletPoints": [
+            {
+               "header": "Languages",
+               "text": "My introduction to programming was via the FileMaker platform building custom distributed desktop applications. I evolved into working with the Groovy programming language for building simple plug-ins. I was formally introduced to Java at the graduate program in Software Engineering at Kennesaw State University. I worked with Java at the enterprise level for Manheim. At Manheim, I have also worked with JavaScript (JS) in many projects. I have used JS to build both front-end and back-end applications; browser applications, mobile applications and NodeJS applications. I’m current part of a team that mainly owns Ruby applications running on Ruby on Rails or Sinatra. The team also owns and actively builds applications using Elixir. Lastly, I have mainly worked with Python in an academic setting. At Georgia Tech, I have used Python to implement AI algorithms, for image processing and network programming.", 
+               "items": [
+                  [
+                     {
+                        "icon": "java",
+                        "info": "Java",
+                        "color": "red",
+                        "size": "5em"
+                     },
+                     {
+                        "icon": "python",
+                        "info": "Python",
+                        "color": "#4B8BBE",
+                        "size": "5em"
+                     },
+                     {
+                        "icon": "javascript",
+                        "info": "JavaScript",
+                        "color": "#323330",
+                        "size": "5em"
+                     }
+                  ],
+                  [
+                     {
+                        "icon": "ruby",
+                        "info": "Ruby",
+                        "color": "red",
+                        "size": "5em"
+                     },
+                     {
+                        "text": "Shell scripting - swiss knife!",
+                        "icon": "bashTerminal",
+                        "info": "Shell Scripting",
+                        "color": "black",
+                        "size": "5em"
+                     }
+                  ]
+               ]
+            },
+            {
+               "header": "Frameworks",
+               "text": "I have built Restful services, micro applications and back-end-for-the-front-end applications using Spring Boot. On the front-end, I worked on large web application that managed user inventory and an application that managed user preferences. AngularJS is a nice framework for the front-end. It provides everything needed to build a large front-end application. On my last Angular project, I worked mainly with FormControl and FormGroup for managing user data and validations. For back-end services, I used Camel early in my career to build route-based applications that served as bridges between legacy AS400 PCML calls and microservices. Currently, I work on an ecosystem dominated by Ruby on Rails, elixir and NodeJS lambdas that run on the AWS cloud.",
+               "items": [
+                  [
+                     {
+                        "icon": "springboot",
+                        "info": "Spring and Spring Boot",
+                        "color": "green",
+                        "size": "5em"
+                     },
+                     {
+                        "icon": "angular",
+                        "info": "AngularJS",
+                        "color": "red",
+                        "size": "5em"
+                     }
+                  ],
+                  [
+                     {
+                        "icon": "expressNode",
+                        "info": "NodeJS Express",
+                        "color": "green",
+                        "size": "5em"
+                     },
+                     {
+                        "icon": "ruby",
+                        "info": "Ruby on Rails",
+                        "color": "#EDA895",
+                        "size": "5em"
+                     },
+                     {
+                        "icon": "apacheCamel",
+                        "info": "Apache Camel",
+                        "color": "black",
+                        "size": "5em"
+                     }
+                  ]
+               ]
+            },
+            {
+               "header": "Tools",
+               "text": "Working in a fast-pace, agile, environment, it is essential to have tools that will increase productivity but also provide flexibility. Outside of your usual suspects such as GIT, Docker and Jenkins, I have used React for building web applications used at the enterprise level. On my previous assignment, I took over the management and enhancements to a React Native application for both Android and iOS. I used React to build this site. AWS, I have been exposed to this cloud provider at Manheim. At Manheim, developers are required to also manage their own DevOps and leverage dedicated DevOps personnel when needed. I have worked with a wide range of services provided by Amazon.",
+               "items": [
+                  [
+                     {
+                        "icon": "react",
+                        "info": "React",
+                        "color": "#61dbfb",
+                        "size": "5em"
+                     },
+                     {
+                        "icon": "git",
+                        "info": "Source control",
+                        "color": "black",
+                        "size": "5em"
+                     },
+                     {
+                        "icon": "aws",
+                        "info": "Amazon Web Services",
+                        "color": "black",
+                        "size": "5em"
+                     }
+                  ],
+                  [
+                     {
+                        "icon": "docker",
+                        "info": "Docker",
+                        "color": "#384d54",
+                        "size": "5em"
+                     },
+                     {
+                        "icon": "jenkins",
+                        "info": "Jenkins",
+                        "color": "#D33834",
+                        "size": "5em"
+                     },
+                     {
+                        "icon": "node",
+                        "info": "NodeJS",
+                        "color": "#3C873A",
+                        "size": "5em"
+                     }
+                  ]
+               ]
+            },
+            {
+               "header": "Others",
+               "text": "I have used PostgresSQL and MySql as the datastore to microservices and micro applications. I was exposed to Kafka streaming applications while working for LivePerson. I helped build several processors, consumers and producers using Spring Boot and Java 8. Currently, I work for a team that manages async operations in a stream fashion. The events are generated and passed through several processors until reaching a subscribed consumer.",
+               "items": [
+                  [
+                     {
+                        "icon": "mysql",
+                        "info": "MySQL",
+                        "color": "#F29111",
+                        "size": "5em"
+                     },
+                     {
+                        "icon": "postgres",
+                        "info": "PostgreSQL",
+                        "color": "#000080",
+                        "size": "5em"
+                     }
+                  ],
+                  [
+                     {
+                        "text": "",
+                        "icon": "",
+                        "info": "",
+                        "color": "",
+                        "size": ""
+                     },
+                     {
+                        "icon": "stream",
+                        "info": "Kafka and streaming architecture",
+                        "color": "",
+                        "size": "5em"
+                     },
+                     {
+                        "text": "",
+                        "icon": "",
+                        "info": "",
+                        "color": "",
+                        "size": ""
+                     }
+                  ]
+               ]
+            }
+         ]
+      }
+   },
+   "education": {
+      "split": {
+         "header": "\"Education is the kindling of a flame, not the filling of a vessel.\" - Socrates",
+         "leftItems": [
+            {
+               "header": "Georgia Institute of Technology",
+               "subheader": "Master of Science in Computer Science",
+               "info": "2017 - Present (currently attending)"
+            },
+            {
+               "header": "Kennesaw State University",
+               "subheader": "Software Engineering",
+               "info": "2015 - 2016 (Continued at GaTech)"
+            },
+            {
+               "header": "Kennesaw State University",
+               "subheader": "Bachelor of Science, Biology",
+               "info": "2005 - 2008"
+            }
+         ],
+         "rightItems": [
+            {
+               "header": "Georgia Tech",
+               "items": [
+                  {
+                     "header": "Security and Networking",
+                     "info": "Security and Networking: Intro To Info Security, Computer Networks and Network Security",
+                     "text": "These courses over security and networking exposed me to graduate-level material and projects around the fundamentals of security and networking. In Intro to Security, I was exposed to a broad spectrum of security concepts such as risk management, software, OS, database security, malicious malware, network threats and defenses, web security, mobile security and legal and ethical concepts. The projects for this class ranged from buffer overflow attacks, malware analysis to  implement SQL Injection, XSS, and XSRF attacks. For Network Security the projects ranged from vulnerability scanning and penetration tests to machine learning for security. For Computer Network, I was exposed to research topics in computer networking. The projects performed for this class ranged from virtualized network topology, Spanning Tree Protocol to coding the firewall implementation and writing firewall rules.",
+                     "links": [
+                        {
+                           "item": "https://www.omscs.gatech.edu/cs-6035-introduction-to-information-security",
+                           "name": "Info Sec OMSCS Page"
+                        }
+                     ]
+                  },
+                  {
+                     "header": "AI",
+                     "info": "Artificial Intelligence and Knowledge-Based AI (Fall 2020)",
+                     "text": "AI helped me build a foundation and understanding for classic AI problems. In this course, I was tasked with building a game playing AI using minimax algorithm with heuristics and alpha-beta pruning. I implemented several search algorithms such as PriorityQueue, Breadth First Search, Uniform Cost Search, A* Search and Bi-directional Search. I implemented Bayesian networks to calculate the probability of discrete random variables.  I built, trained and tested decision tree models to perform basic classification tasks. I learned about image segmentation with k-means clustering to segment a color image and building a Gaussian mixture model to be trained with expectation-maximization and experimented with Bayesian information criterion. The final projects consisted of decoding Morse code using Hidden Markov Models.",
+                     "links": [
+                        {
+                           "item": "https://www.omscs.gatech.edu/cs-6601-artificial-intelligence",
+                           "name": "AI OMSCS Page"
+                        }
+                     ]
+                  },
+                  {
+                     "header": "General",
+                     "info": "Software Dev Process (Java), Graduate Intro to OS (C/C++) and Educ Tech-Foundations (Summer 2020)",
+                     "text": "These classic CS courses exposed me to a range of concepts from building native mobile applications with a team using agile methodologies to building and implemented distributed file system. I had a lot of fun implementing inter-process communication and building multithreading web servers in the operating systems class. For SDP, I built several mobile applications and completed projects on how to use GIT and UML.",
+                     "links": [
+                        {
+                           "item": "https://www.omscs.gatech.edu/cs-6300-software-development-process",
+                           "name": "SDP OMSCS Page"
+                        },
+                        {
+                           "item": "https://www.omscs.gatech.edu/cs-6200-introduction-operating-systems",
+                           "name": "Intro to OS OMSCS Page"
+                        }
+                     ]
+                  },
+                  {
+                     "header": "UI/UX",
+                     "info": "Human-Computer Interact",
+                     "text": "This course exposed me to formal concepts for how human interact with computers. These concepts provide a wider perspective and reasoning on how the designing and evaluating of design are user-centered around finding the ask/need, prototyping and evaluation. These skills had to be applied through several projects and a final team project that enhanced and connected the concepts of these course.",
+                     "links": [
+                        {
+                           "item": "http://www.omscs.gatech.edu/cs-6750-human-computer-interaction",
+                           "name": "HCI OMSCS Page"
+                        }
+                     ]
+                  },
+                  {
+                     "header": "Photography",
+                     "info": "Computational Photography (Python)",
+                     "text": "This course consisted of projects around image processing concepts. I completed projects dealing with epsilon photography, camera obscura, blending, panoramas, HDR and video textures. Please see link below for final portfolio.",
+                     "links": [
+                        {
+                           "item": "https://drive.google.com/file/d/1HdZarzPkMiOscysRieQKQtxKA0NY44k4/view?ths=true",
+                           "name": "Comp. Photography portfolio slides"
+                        },
+                        {
+                           "item": "https://www.omscs.gatech.edu/cs-6475-computational-photography",
+                           "name": "Comp. Photography OMSCS page"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "header": "KSU",
+               "items": [
+                  {
+                     "header": "General",
+                     "info": "Attended KSU for several semesters in pursue of M.S. in Software Engineering",
+                     "text": ""
+                  }
+               ]
+            }
+         ]
+      },
+      "profile": "no",
+      "about": {
+         "header": "A professional with 6 years of experience in software development who has:",
+         "bulletPoints": [
+            "Created and supported Restful services in a microservices architecture.",
+            "Worked on web and mobile applications.",
+            "Created streaming applications.",
+            "Worked mainly in team environments applying agile methodologies.",
+            "DevOps",
+            "Languages: Java (proficient), JavaScript and TypeScript (proficient), Python (intermediate) and Ruby (intermediate)",
+            "Technologies: SpringBoot, React, React Native, Rub on Rails and Sinatra",
+            "Tools: Git, GitHub, Jenkins, Docker, postman, xcode, VIM, Intellij and VSCode",
+            "Monitoring: New Relic, DataDog, Splunk and CloudWatch",
+            "Cloud Providers: AWS"
+         ]
+      }
+   },
+   "career": {
+      "header": "\"Originality consists of returning to the origin. Thus, originality means returning, through one’s resources, to the simplicity of the early solutions.\"   — Antonio Gaudi",
+      "items": [
+         {
+            "timeLineProps": {
+               "contentStyle": {
+                  "background": "rgb(135, 206, 235)",
+                  "color": "#000"
+               },
+               "contentArrowStyle": {
+                  "borderRight": "20px solid  rgb(135, 206, 235)"
+               },
+               "date": "Now",
+               "iconStyle": {
+                  "background": "rgb(135, 206, 235)",
+                  "color": "#fff"
+               },
+               "icon": "car"
+            },
+            "title": "Cox Automotive (Manheim)",
+            "subtitle": "Sr. Software Engineer",
+            "body": {
+               "text": "Currently working as part of the Inventory Foundation team. The team handles the APIs for managing vehicle inventory data.",
+               "className": "body-black-text",
+               "header": "",
+               "bulletPoints": [
+                  "Created and supported Restful services in a microservices architecture.",
+                  "Worked on web and mobile applications.",
+                  "Created tasks and workflows that helped team productivity.",
+                  "DevOps in AWS cloud"
+               ],
+               "more": {
+                  "header": "",
+                  "bulletPoints": []
+               }
+            },
+            "linkClassName": "link-text"
+         },
+         {
+            "timeLineProps": {
+               "contentStyle": {},
+               "contentArrowStyle": {
+                  "borderRight": "20px solid  rgb(255, 255, 255)"
+               },
+               "date": "May 2018 – December 2018",
+               "iconStyle": {
+                  "background": "rgb(33, 150, 243)",
+                  "color": "#fff"
+               },
+               "icon": "message"
+            },
+            "title": "LivePerson",
+            "subtitle": "Sr. Software Engineer",
+            "body": {
+               "text": "Part of the R&D team that worked on rebuilding part of a chat messaging system.",
+               "className": "body-black-text",
+               "header": "",
+               "bulletPoints": [
+                  "Worked on building processors for a streaming application using Kafka.",
+                  "Built UI for an internal NodeJS framework using React.",
+                  "Worked with WebSockets using the STOMP protocol."
+               ],
+               "more": {
+                  "header": "",
+                  "bulletPoints": []
+               }
+            },
+            "linkClassName": "link-text"
+         },
+         {
+            "timeLineProps": {
+               "contentStyle": {},
+               "contentArrowStyle": {
+                  "borderRight": "20px solid  rgb(255, 255, 255)"
+               },
+               "date": "March 2015 – May 2018",
+               "iconStyle": {
+                  "background": "rgb(33, 150, 243)",
+                  "color": "#000"
+               },
+               "icon": "car"
+            },
+            "title": "Cox Automotive (Manheim)",
+            "subtitle": "Sr. Software Engineer",
+            "body": {
+               "text": "Worked as part of team that built and managed an enterprise SMS and Email messaging engine and APIs.",
+               "className": "body-black-text",
+               "header": "",
+               "bulletPoints": [
+                  "Worked on building and maintaing a micro application.",
+                  "Worked on building and maintaing APIs.",
+                  "Helped build and maintain a front-end application.",
+                  "Worked on a back-end team that built and managed APIs that interacted with a AS400.",
+                  "Created tasks and workflows that helped team productivity.",
+                  "DevOps in AWS cloud"
+               ],
+               "more": {
+                  "header": "",
+                  "bulletPoints": [
+                  ]
+               }
+            },
+            "linkClassName": "link-text"
+         },
+         {
+            "timeLineProps": {
+               "contentStyle": {},
+               "contentArrowStyle": {
+                  "borderRight": "20px solid  rgb(255, 255, 255)"
+               },
+               "date": "October 2014 – March 2015",
+               "iconStyle": {
+                  "background": "rgb(33, 150, 243)",
+                  "color": "#000"
+               },
+               "icon": "work"
+            },
+            "title": "Accenture",
+            "subtitle": "Jr. Software Engineer",
+            "body": {
+               "text": "Trained in Java and test-driven development. Worked on functional and system testing for a large financial company.",
+               "className": "body-black-text",
+               "header": "",
+               "bulletPoints": [
+                  "Functional and system testing."
+               ],
+               "more": {
+                  "header": "",
+                  "bulletPoints": []
+               }
+            },
+            "linkClassName": "link-text"
+         },
+         {
+            "timeLineProps": {
+               "contentStyle": {},
+               "contentArrowStyle": {
+                  "borderRight": "20px solid  rgb(255, 255, 255)"
+               },
+               "date": "May 2013 – October 2014",
+               "iconStyle": {
+                  "background": "rgb(33, 150, 243)",
+                  "color": "#000"
+               },
+               "icon": "desktop"
+            },
+            "title": "Gearbox Solutions",
+            "subtitle": "Software Engineer",
+            "body": {
+               "text": "Built and integrated solutions using the FileMaker platform.",
+               "className": "body-black-text",
+               "header": "",
+               "bulletPoints": [
+                  "API integration with REST and SOAP over HTTP.",
+                  "Plug-ins for FileMaker using Groovy."
+               ],
+               "more": {
+                  "header": "",
+                  "bulletPoints": []
+               }
+            },
+            "linkClassName": "link-text"
+         },
+         {
+            "timeLineProps": {
+               "contentStyle": {},
+               "contentArrowStyle": {
+                  "borderRight": "20px solid  rgb(255, 255, 255)"
+               },
+               "date": "March 2012 – May 2013",
+               "iconStyle": {
+                  "background": "rgb(33, 150, 243)",
+                  "color": "#000"
+               },
+               "icon": "work"
+            },
+            "title": "Danox Environmental Services, Inc.",
+            "subtitle": "Pharmaceutical Coordinator",
+            "body": {
+               "text": "Managed the pharmaceutical waste services department.",
+               "className": "body-black-text",
+               "header": "",
+               "bulletPoints": [
+                  "Exposed to FileMaker.",
+                  "Helped build an internal FileMaker application."
+               ],
+               "more": {
+                  "header": "",
+                  "bulletPoints": []
+               }
+            },
+            "linkClassName": "link-text"
+         },
+         {
+            "timeLineProps": {
+               "contentStyle": {},
+               "contentArrowStyle": {
+                  "borderRight": "20px solid  rgb(255, 255, 255)"
+               },
+               "date": "March 2009 – January 2012",
+               "iconStyle": {
+                  "background": "rgb(33, 150, 243)",
+                  "color": "#000"
+               },
+               "icon": "work"
+            },
+            "title": "Stericycle, Inc.",
+            "subtitle": "Pharmaceutical Coordinator",
+            "body": {
+               "text": "Ensured that DEA controlled substances were properly handled.",
+               "className": "body-black-text",
+               "header": "",
+               "bulletPoints": [
+               ],
+               "more": {
+                  "header": "",
+                  "bulletPoints": []
+               }
+            },
+            "linkClassName": "link-text"
+         }
+      ]
+   },
+   "contact": {
+      "name": "Edgar Bautista",
+      "street": "",
+      "city": "Atlanta",
+      "state": "GA",
+      "zip": "30047",
+      "phone": "(404) 414-6026",
+      "email": "edjbautista@gmail.com"
+   }
+}
