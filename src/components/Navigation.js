@@ -32,24 +32,24 @@ class Navigation extends Component {
       <Container>
         <Row>
           <Col>
-        <Navbar collapseOnSelect id="nav-wrap" fixed="top" bg="light" expand="lg" variant="light">
-          {/* <Navbar.Brand>Edgar Bautista</Navbar.Brand> */}
-          {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}
-          <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-center">
-              <Scrollspy onUpdate={(el) => this.currentElement(el)} offset={-250} items={this.state.sections}>
-                <Nav className="mr-auto">
-                  <AnchorLink className="current-section nav-link" href="#home"><div className={this.state.sectionsClass["home"]}>Home</div></AnchorLink>
-                  <AnchorLink className="nav-link" href="#intro"><div className={this.state.sectionsClass["intro"]}>Introduction</div></AnchorLink>
-                  <AnchorLink className="nav-link" href="#career"><div className={this.state.sectionsClass["career"]}>Career</div></AnchorLink>
-                  <AnchorLink className="nav-link" href="#education"><div className={this.state.sectionsClass["education"]}>Education</div></AnchorLink>
-                  <AnchorLink className="nav-link" href="#contact"><div className={this.state.sectionsClass["contact"]}>Contact</div></AnchorLink>
-                </Nav>
-              </Scrollspy>
-          </Navbar.Collapse>
-        </Navbar>
-        </Col>
+            <Navbar collapseOnSelect id="nav-wrap" fixed="top" bg="light" expand="lg" variant="light">
+              {/* <Navbar.Brand>Edgar Bautista</Navbar.Brand> */}
+              {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}
+              <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-center">
+                <Scrollspy onUpdate={(el) => this.currentElement(el)} offset={-250} items={this.state.sections}>
+                  <Nav className="mr-auto">
+                    <AnchorLink className="current-section nav-link" href="#home"><div className={this.state.sectionsClass["home"]}>Home</div></AnchorLink>
+                    <AnchorLink className="nav-link" href="#intro"><div className={this.state.sectionsClass["intro"]}>Introduction</div></AnchorLink>
+                    <AnchorLink className="nav-link" href="#career"><div className={this.state.sectionsClass["career"]}>Career</div></AnchorLink>
+                    <AnchorLink className="nav-link" href="#education"><div className={this.state.sectionsClass["education"]}>Education</div></AnchorLink>
+                    <AnchorLink className="nav-link" href="#contact"><div className={this.state.sectionsClass["contact"]}>Contact</div></AnchorLink>
+                  </Nav>
+                </Scrollspy>
+              </Navbar.Collapse>
+            </Navbar>
+          </Col>
         </Row>
-        </Container>
+      </Container>
     );
   }
 }

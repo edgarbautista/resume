@@ -8,6 +8,9 @@ import Career from './components/Career'
 import Navigation from './components/Navigation'
 import { fetchCvData } from './services/cvService'
 import { loadImages } from './helpers/imageHelper'
+import Loader from './components/Loader'
+import Container from 'react-bootstrap/Container'
+import Zoom from 'react-reveal/Zoom';
 
 class App extends Component {
   constructor(props) {
@@ -26,8 +29,9 @@ class App extends Component {
     let data = {}
     try {
       data = await fetchCvData()
-      await Promise.all(await loadImages(data.data.backgroundImages))
-      await Promise.all(await loadImages(data.data.home.faces))
+      Promise.all(await loadImages(data.data.backgroundImages))
+      Promise.all(await loadImages(data.data.home.faces))
+      await new Promise((resolve) => setTimeout(resolve, 3000))
     } catch (e) {
       console.log(e)
     } finally {
@@ -44,15 +48,17 @@ class App extends Component {
   }
 
   render() {
-    return (this.state.loading) ? null :
+    return (this.state.loading) ? <Container><Loader color="#36D7B7" size={80} loading={this.state.loading} /></Container>:
     (
       <div className="App">
-        <Navigation currentEl={this.currentEl} />
-        <Home home={this.state.data.home} images={this.state.data.backgroundImages} />
-        <Intro intro={this.state.data.intro} currentEl={this.state.currentElementId} />
-        <Career career={this.state.data.career} />
-        <Education education={this.state.data.education} />
-        <Contact contact={this.state.data.contact} />
+          <Navigation currentEl={this.currentEl} />
+          <Zoom>
+            <Home home={this.state.data.home} images={this.state.data.backgroundImages} />
+          </Zoom>
+          <Intro intro={this.state.data.intro} currentEl={this.state.currentElementId} />
+          <Career career={this.state.data.career} />
+          <Education education={this.state.data.education} />
+          <Contact contact={this.state.data.contact} />
       </div>
     );
   }

@@ -1017,3 +1017,14 @@ properly.
     .binary_background {
        z-index: -999;
     }
+
+    .navigation {
+      z-index: 99999;
+   }
+
+    .loader{
+      position: fixed;
+      left: 50%;
+      top: 30%;
+      z-index: 9999;
+    }
