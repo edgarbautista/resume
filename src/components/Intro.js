@@ -11,6 +11,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
 import Jump from 'react-reveal/Jump';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 class Intro extends Component {
 
@@ -178,13 +179,15 @@ class Intro extends Component {
           </Container>
           <br/>
           <br/>
-          <div  style={{ display: this.state.showX ? "block" : "none"}} onClick={this.handleExitIconClick}><ProfileIcon clickable={true} className="intro_icon" icon="close" color="grey" size="5em" /></div>
+          <div id="show_details_card"  style={{ display: this.state.showX ? "block" : "none"}} onClick={this.handleExitIconClick}><ProfileIcon clickable={true} className="intro_icon" icon="close" color="grey" size="5em" /></div>
           <br />
           <Container><h4 className="text-justify" style={{ display: this.state.showX ? "block" : "none" }}>{this.getText()}</h4></Container>
           <br />
           <div className="intro-cards">
              <CardGroup>
-                {about.bulletPoints.map((item, index) => <div key={index} onMouseEnter={() => this.onMouseEnterEvent(index)} onMouseLeave={() => this.onMouseExitEvent(index)}  onClick={() => this.handleIconClick(item.text, index)}><Jump spy={this.state.counter[index]}><CardLayout cardClass={this.state.activeCardColor[index]} header={item.header} a content={this.getContent(item, index)} /></Jump></div>)}
+                {about.bulletPoints.map((item, index) => <div key={index} onMouseEnter={() => this.onMouseEnterEvent(index)} onMouseLeave={() => this.onMouseExitEvent(index)}  onClick={() => this.handleIconClick(item.text, index)}>
+                   <Jump spy={this.state.counter[index]}><AnchorLink href="#show_details_card"><CardLayout cardClass={this.state.activeCardColor[index]} header={item.header} a content={this.getContent(item, index)} /></AnchorLink>
+                   </Jump></div>)}
              </CardGroup>
           </div>
        </section>

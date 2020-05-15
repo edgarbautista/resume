@@ -8,10 +8,8 @@ import ProfileIcon from "./ProfileIcon"
 class Career extends Component {
    componentDidMount() {
       Events.scrollEvent.register('begin', function () {
-         console.log("begin", arguments);
       });
       Events.scrollEvent.register('end', function () {
-         console.log("end", arguments);
       });
    }
 
@@ -34,7 +32,6 @@ class Career extends Component {
    onInfoClick = () => {}
 
    scrollTo = (name, containerId) => {
-      console.log(name, containerId)
       scroller.scrollTo(name, {
          duration: 800,
          delay: 0,

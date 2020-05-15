@@ -6,7 +6,7 @@ class Loader extends Component {
   render() {
     const { css, color, size, loading} = this.props
     return (
-      <div class="d-flex justify-content-center loader">
+      <div className="d-flex justify-content-center loader">
         <RingLoader
           css={css}
           size={size}

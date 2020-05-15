@@ -32,12 +32,33 @@ header {
    text-align: center;
    overflow: hidden;
    padding-bottom: 10px;
-   transition: all 1.0s ease-in-out;
-   -moz-transition: all 1.0s ease-in-out;
+   transition: all 1s ease-in-out;
+   -moz-transition: all 1s ease-in-out;
 }
+
+.background {
+   position: static;
+   background-size: cover;
+   height: 100%;
+   width: 100%;
+   transition: background-image 1s ease-in-out;
+ }
+ 
+ .preload-background {
+   position: absolute;
+   background-size: cover;
+   height: 1px;
+   width: 1px;
+   z-index: -999;
+   transition: background-image 1s ease-in-out;
+ }
 
 .background_img {
    position: absolute;
+}
+
+.compute-face {
+   opacity: 0.8;
 }
 
 /* vertically center banner section */

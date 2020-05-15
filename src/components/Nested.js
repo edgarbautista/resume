@@ -9,7 +9,6 @@ class Nested extends Component {
     state = {}
 
     isOpen(index, inner, nestedInner) {
-        console.log("ok..")
         const field = `${index}_${inner}_${nestedInner}`
         return this.state[field]
     }

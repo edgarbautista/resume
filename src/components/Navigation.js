@@ -22,6 +22,7 @@ class Navigation extends Component {
   }
 
   currentElement = (el) => {
+    if (!el) { return }
     const sectionsClass = _.mapValues(this.state.sectionsClass, () => "")
     sectionsClass[el.id] = "current-section"
     this.setState({ sectionsClass })
