@@ -32,8 +32,8 @@
                      "header": "Master of Science in Computer Science",
                      "list": [
                         "Security and Networking: Intro To Info Security (C/C++/Bash/JS), Computer Networks and Network Security",
-                        "AI: Artificial Intelligence (Python) and Knowledge-Based AI (Fall 2020)",
-                        "General: Software Dev Process (Java), Graduate Intro to OS (C/C++) and Educ Tech-Foundations (Summer 2020)",
+                        "AI: Artificial Intelligence (Python) and Knowledge-Based AI",
+                        "General: Software Dev Process (Java), Graduate Intro to OS (C/C++) and Educ Tech-Foundations",
                         "UI/UX: Human-Computer Interact",
                         "Photography: Computational Photography (Python)"
                      ]
@@ -60,11 +60,11 @@
       ],
       "profile": "no",
       "about": {
-         "header": "For the past six years I have loved working on web and mobile applications. There’s never a dull moment as a software engineer. Whether it’s learning new languages, technologies, or spending countless hours finding a streamlined solution to a problem, there’s always room for improvement. I love my profession because there is always something new to learn and the knowledge that you acquired can be applied across the board to different applications.",
+         "header": "For the past seven years I have enjoyed working on web and mobile applications. There’s never a dull moment as a software engineer. Whether it’s learning new languages, technologies, or spending countless hours finding a streamlined solution to a problem, there’s always room for improvement. I enjoy my profession because there is always something new to learn and the knowledge that you acquired can be applied across the board to different applications.",
          "bulletPoints": [
             {
                "header": "Languages",
-               "text": "My introduction to programming was via the FileMaker platform building custom distributed desktop applications. I evolved into working with the Groovy programming language for building simple plug-ins. I was formally introduced to Java at the graduate program in Software Engineering at Kennesaw State University. I worked with Java at the enterprise level for Manheim. At Manheim, I have also worked with JavaScript (JS) in many projects. I have used JS to build both front-end and back-end applications; browser applications, mobile applications and NodeJS applications. I’m current part of a team that mainly owns Ruby applications running on Ruby on Rails or Sinatra. The team also owns and actively builds applications using Elixir. Lastly, I have mainly worked with Python in an academic setting. At Georgia Tech, I have used Python to implement AI algorithms, for image processing and network programming.", 
+               "text": "My introduction to programming was via the FileMaker platform building custom distributed desktop applications. This then evolved into working with the Groovy programming language for building simple plug-ins. I was formally introduced to Java in the graduate program of Software Engineering at Kennesaw State University. I worked with Java at the enterprise level for Manheim. At Manheim I also worked with JavaScript (JS) in many projects. I have used JS to build frontend (Web App), backend (Node.js) and mobile (React Native) applications. In my last role at Manheim, I was part of a team that mainly worked on Ruby applications. The team also owned and actively built applications using Elixir. Currently at Infor I use Java and Spring Boot applications. I worked with Python in an academic setting. At Georgia Tech I used Python to implement AI algorithms for image processing and network programming.", 
                "items": [
                   [
                      {
@@ -105,7 +105,7 @@
             },
             {
                "header": "Frameworks",
-               "text": "I have built Restful services, micro applications and back-end-for-the-front-end applications using Spring Boot. On the front-end, I worked on large web application that managed user inventory and an application that managed user preferences. AngularJS is a nice framework for the front-end. It provides everything needed to build a large front-end application. On my last Angular project, I worked mainly with FormControl and FormGroup for managing user data and validations. For back-end services, I used Camel early in my career to build route-based applications that served as bridges between legacy AS400 PCML calls and microservices. Currently, I work on an ecosystem dominated by Ruby on Rails, elixir and NodeJS lambdas that run on the AWS cloud.",
+               "text": "I have built Restful services, micro applications, and backend-for-the-frontend applications using Spring Boot. On the frontend I worked on large web application that managed user inventory and an application that managed user preferences. AngularJS is a nice framework for the frontend. It provides everything needed to build a large frontend application. In my last Angular project, I worked mainly with FormControl and FormGroup for managing user data and validations. For backend services, I used Camel early in my career to build route-based applications that served as bridges between legacy AS400 PCML calls and microservices. I have worked on tech stack dominated by Ruby on Rails, elixir, and NodeJS lambdas that run on the AWS cloud. In my current role I work with Spring Boot and Hazelcast as the main frameworks.",
                "items": [
                   [
                      {
@@ -145,7 +145,7 @@
             },
             {
                "header": "Tools",
-               "text": "Working in a fast-pace, agile, environment, it is essential to have tools that will increase productivity but also provide flexibility. Outside of your usual suspects such as GIT, Docker and Jenkins, I have used React for building web applications used at the enterprise level. On my previous assignment, I took over the management and enhancements to a React Native application for both Android and iOS. I used React to build this site. AWS, I have been exposed to this cloud provider at Manheim. At Manheim, developers are required to also manage their own DevOps and leverage dedicated DevOps personnel when needed. I have worked with a wide range of services provided by Amazon.",
+               "text": "Working in a fast-pace agile environment it is essential to have tools that will increase productivity but also provide flexibility. Besides using essential tools such as Git, Docker, and Jenkins, I have also used React for building web applications at the enterprise level. In my previous assignment I took over the management and enhancements to a React Native application for both Android and iOS. I used React to build this site. I was first exposed to AWS at Manheim. At Manheim developers are required to also manage their own DevOps and leverage dedicated DevOps personnel when needed. I have worked with a wide range of services provided by AWS.",
                "items": [
                   [
                      {
@@ -191,7 +191,7 @@
             },
             {
                "header": "Others",
-               "text": "I have used PostgresSQL and MySql as the datastore to microservices and micro applications. I was exposed to Kafka streaming applications while working for LivePerson. I helped build several processors, consumers and producers using Spring Boot and Java 8. Currently, I work for a team that manages async operations in a stream fashion. The events are generated and passed through several processors until reaching a subscribed consumer.",
+               "text": "I have used PostgresSQL and MySql as the datastore to microservices and micro applications. I was exposed to Kafka streaming applications while working for LivePerson. I helped build several processors, consumers, and producers using Spring Boot and Java 8. I worked for a team that managed async operations in a stream fashion. The events were generated and passed through several processors until reaching a subscribed consumer. In my current role I'm part of a team that builds services for clients to query a data lake via SQL dialects",
                "items": [
                   [
                      {
@@ -241,17 +241,12 @@
             {
                "header": "Georgia Institute of Technology",
                "subheader": "Master of Science in Computer Science",
-               "info": "2017 - Present (currently attending)"
-            },
-            {
-               "header": "Kennesaw State University",
-               "subheader": "Software Engineering",
-               "info": "2015 - 2016 (Continued at GaTech)"
+               "info": "2020"
             },
             {
                "header": "Kennesaw State University",
                "subheader": "Bachelor of Science, Biology",
-               "info": "2005 - 2008"
+               "info": "2008"
             }
          ],
          "rightItems": [
@@ -271,8 +266,8 @@
                   },
                   {
                      "header": "AI",
-                     "info": "Artificial Intelligence and Knowledge-Based AI (Fall 2020)",
-                     "text": "AI helped me build a foundation and understanding for classic AI problems. In this course, I was tasked with building a game playing AI using minimax algorithm with heuristics and alpha-beta pruning. I implemented several search algorithms such as PriorityQueue, Breadth First Search, Uniform Cost Search, A* Search and Bi-directional Search. I implemented Bayesian networks to calculate the probability of discrete random variables.  I built, trained and tested decision tree models to perform basic classification tasks. I learned about image segmentation with k-means clustering to segment a color image and building a Gaussian mixture model to be trained with expectation-maximization and experimented with Bayesian information criterion. The final projects consisted of decoding Morse code using Hidden Markov Models.",
+                     "info": "Artificial Intelligence and Knowledge-Based AI",
+                     "text": "AI helped me build a foundation and understanding for classic AI problems. In this course, I was tasked with building a game playing AI using minimax algorithm with heuristics and alpha-beta pruning. I implemented several search algorithms such as PriorityQueue, Breadth First Search, Uniform Cost Search, A* Search and Bi-directional Search. I implemented Bayesian networks to calculate the probability of discrete random variables.  I built, trained and tested decision tree models to perform basic classification tasks. I learned about image segmentation with k-means clustering to segment a color image and building a Gaussian mixture model to be trained with expectation-maximization and experimented with Bayesian information criterion. The final projects consisted of decoding Morse code using Hidden Markov Models. In KBAI, I worked on building an agent that could pass Raven’s Progressive Matrices test.",
                      "links": [
                         {
                            "item": "https://www.omscs.gatech.edu/cs-6601-artificial-intelligence",
@@ -282,8 +277,8 @@
                   },
                   {
                      "header": "General",
-                     "info": "Software Dev Process (Java), Graduate Intro to OS (C/C++) and Educ Tech-Foundations (Summer 2020)",
-                     "text": "These classic CS courses exposed me to a range of concepts from building native mobile applications with a team using agile methodologies to building and implemented distributed file system. I had a lot of fun implementing inter-process communication and building multithreading web servers in the operating systems class. For SDP, I built several mobile applications and completed projects on how to use GIT and UML.",
+                     "info": "Software Dev Process (Java), Graduate Intro to OS (C/C++) and Educ Tech-Foundations",
+                     "text": "These classic CS courses exposed me to a range of concepts from building native mobile applications with a team using agile methodologies to building and implemented distributed file system. I had a lot of fun implementing inter-process communication and building multithreading web servers in the operating systems class. For SDP, I built several mobile applications and completed projects on how to use Git and UML. In Educ Tech-Foundations, as my project I build an Android game for learning and playing the abucus.",
                      "links": [
                         {
                            "item": "https://www.omscs.gatech.edu/cs-6300-software-development-process",
@@ -320,16 +315,6 @@
                            "name": "Comp. Photography OMSCS page"
                         }
                      ]
-                  }
-               ]
-            },
-            {
-               "header": "KSU",
-               "items": [
-                  {
-                     "header": "General",
-                     "info": "Attended KSU for several semesters in pursue of M.S. in Software Engineering",
-                     "text": ""
                   }
                ]
             }
@@ -369,12 +354,47 @@
                   "background": "rgb(135, 206, 235)",
                   "color": "#fff"
                },
+               "icon": "desktop"
+            },
+            "title": "Infor",
+            "subtitle": "Sr. Software Engineer",
+            "body": {
+               "text": "Member of the data lake Services team. The team provides APIs that allow clients to query the data lake with SQL dialects.",
+
+               "className": "body-black-text",
+               "header": "",
+               "bulletPoints": [
+                  "Quickly became a contributing member of major deliverables.",
+                  "Worked on custom JDBC driver for interacting with the data lake.",
+                  "Lead developer of a service that transpiles SQL dialects to query engine domain dialects.",
+                  "Designated Scrum Master for the data lake Services team.",
+                  "Helped with the restructuring of team’s agile scrum process.",
+                  "Helped build a tool for cleaning up data in the data lake."
+               ],
+               "more": {
+                  "header": "",
+                  "bulletPoints": []
+               }
+            },
+            "linkClassName": "link-text"
+         },
+         {
+            "timeLineProps": {
+               "contentStyle": {},
+               "contentArrowStyle": {
+                  "borderRight": "20px solid  rgb(33, 150, 243)"
+               },
+               "date": "December 2018 - June 2020",
+               "iconStyle": {
+                  "background": "rgb(33, 150, 243)",
+                  "color": "#fff"
+               },
                "icon": "car"
             },
             "title": "Cox Automotive (Manheim)",
             "subtitle": "Sr. Software Engineer",
             "body": {
-               "text": "Currently working as part of the Inventory Foundation team. The team handles the APIs for managing vehicle inventory data.",
+               "text": "Member of the Inventory Foundation team. The team handles the APIs for managing vehicle inventory data.",
                "className": "body-black-text",
                "header": "",
                "bulletPoints": [
@@ -394,7 +414,7 @@
             "timeLineProps": {
                "contentStyle": {},
                "contentArrowStyle": {
-                  "borderRight": "20px solid  rgb(255, 255, 255)"
+                  "borderRight": "20px solid  rgb(33, 150, 243)"
                },
                "date": "May 2018 – December 2018",
                "iconStyle": {
@@ -406,7 +426,7 @@
             "title": "LivePerson",
             "subtitle": "Sr. Software Engineer",
             "body": {
-               "text": "Part of the R&D team that worked on rebuilding part of a chat messaging system.",
+               "text": "Member of the R&D team that worked on rebuilding part of a chat messaging system.",
                "className": "body-black-text",
                "header": "",
                "bulletPoints": [
@@ -425,7 +445,7 @@
             "timeLineProps": {
                "contentStyle": {},
                "contentArrowStyle": {
-                  "borderRight": "20px solid  rgb(255, 255, 255)"
+                  "borderRight": "20px solid rgb(33, 150, 243)"
                },
                "date": "March 2015 – May 2018",
                "iconStyle": {
@@ -441,10 +461,10 @@
                "className": "body-black-text",
                "header": "",
                "bulletPoints": [
-                  "Worked on building and maintaing a micro application.",
-                  "Worked on building and maintaing APIs.",
-                  "Helped build and maintain a front-end application.",
-                  "Worked on a back-end team that built and managed APIs that interacted with a AS400.",
+                  "Worked on building and maintaining a micro application.",
+                  "Worked on building and maintaining APIs.",
+                  "Helped build and maintain a frontend application.",
+                  "Worked on a backend team that built and managed APIs that interacted with a AS400.",
                   "Created tasks and workflows that helped team productivity.",
                   "DevOps in AWS cloud"
                ],
@@ -460,7 +480,7 @@
             "timeLineProps": {
                "contentStyle": {},
                "contentArrowStyle": {
-                  "borderRight": "20px solid  rgb(255, 255, 255)"
+                  "borderRight": "20px solid  rgb(33, 150, 243)"
                },
                "date": "October 2014 – March 2015",
                "iconStyle": {
@@ -489,7 +509,7 @@
             "timeLineProps": {
                "contentStyle": {},
                "contentArrowStyle": {
-                  "borderRight": "20px solid  rgb(255, 255, 255)"
+                  "borderRight": "20px solid  rgb(33, 150, 243)"
                },
                "date": "May 2013 – October 2014",
                "iconStyle": {
@@ -519,7 +539,7 @@
             "timeLineProps": {
                "contentStyle": {},
                "contentArrowStyle": {
-                  "borderRight": "20px solid  rgb(255, 255, 255)"
+                  "borderRight": "20px solid  rgb(33, 150, 243)"
                },
                "date": "March 2012 – May 2013",
                "iconStyle": {
@@ -549,7 +569,7 @@
             "timeLineProps": {
                "contentStyle": {},
                "contentArrowStyle": {
-                  "borderRight": "20px solid  rgb(255, 255, 255)"
+                  "borderRight": "20px solid  rgb(33, 150, 243)"
                },
                "date": "March 2009 – January 2012",
                "iconStyle": {
@@ -580,7 +600,7 @@
       "street": "",
       "city": "Atlanta",
       "state": "GA",
-      "zip": "30047",
+      "zip": "",
       "phone": "(404) 414-6026",
       "email": "edjbautista@gmail.com"
    }

@@ -129,15 +129,16 @@ class Home extends Component {
       const { name, title, about, preTitle } = this.props.home
       return (
       <div className="row banner container">
-         <div className="col-lg" id="image_here">
-            {
+         <div className="col-sm-4">
+            {/* {
                this.imageOverBackground()
-            }
+            } */}
          </div>
-         <div className="col-lg" id="header_text">
+         <div className="col-md-6" id="header_text">
             <h1 className="display-2">{name}</h1>
             <h2 className="display-4">{preTitle} <span>{title}</span> {about}</h2>
          </div>
+         <div className="col-sm"></div>
       </div>
       )
    }
