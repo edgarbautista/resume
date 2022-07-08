@@ -4,7 +4,6 @@ import { imageIndex, loadImagesSync } from '../helpers/imageHelper'
 
 let timeInterval = 2000
 let init = true
-const isFirefox = typeof InstallTrigger !== 'undefined'
 
 class Home extends Component {
    constructor(props) {

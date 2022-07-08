@@ -20,7 +20,7 @@
     "react-expand-animated": "^1.0.2",
     "react-helmet": "^6.0.0",
     "react-icons": "^3.9.0",
-    "react-page-loading": "^1.0.2",
+    "react-page-loading-v2": "^1.0.2",
     "react-reveal": "^1.2.2",
     "react-rounded-image": "^2.0.2",
     "react-scripts": "3.4.1",
