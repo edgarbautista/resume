@@ -364,8 +364,8 @@
                "className": "body-black-text",
                "header": "",
                "bulletPoints": [
-                  "Leading a sub-team that manages the entire feature implementaton from feature discussions to development in front-end, back-end and testing.",
-                  "The work encompasses devlopment and management of features around network statistics upload, storage, APIs and visualization."
+                  "The work encompasses the development and management of features around network statistics upload, storage, APIs, and visualization.",
+                  "Migrated time-series data from MySQL to ClickHouse."
                ],
                "more": {
                   "header": "",
@@ -425,14 +425,14 @@
             "title": "Cox Automotive (Manheim)",
             "subtitle": "Sr. Software Engineer",
             "body": {
-               "text": "Member of the Inventory Foundation team. The team handles the APIs for managing vehicle inventory data.",
+               "text": "Member of the Inventory Foundation team. The team handled the APIs for managing vehicle inventory data.",
                "className": "body-black-text",
                "header": "",
                "bulletPoints": [
                   "Created and supported Restful services in a microservices architecture.",
                   "Worked on web and mobile applications.",
                   "Created tasks and workflows that helped team productivity.",
-                  "DevOps in AWS cloud"
+                  "DevOps in AWS cloud."
                ],
                "more": {
                   "header": "",
@@ -632,7 +632,6 @@
       "city": "Atlanta",
       "state": "GA",
       "zip": "",
-      "phone": "(404) 414-6026",
       "email": "edjbautista@gmail.com"
    }
 }
