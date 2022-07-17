@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { hasAnyProps } from '../helpers/props';
 import { imageIndex, loadImagesSync } from '../helpers/imageHelper'
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 let timeInterval = 2000
 let init = true
@@ -127,18 +130,24 @@ class Home extends Component {
       if(!hasAnyProps(this.props.home)) return null
       const { name, title, about, preTitle } = this.props.home
       return (
-      <div className="row banner container">
-         <div className="col-sm-4">
-            {/* {
-               this.imageOverBackground()
-            } */}
-         </div>
-         <div className="col-md-6" id="header_text">
-            <h1 className="display-2">{name}</h1>
-            <h2 className="display-4">{preTitle} <span>{title}</span> {about}</h2>
-         </div>
-         <div className="col-sm"></div>
-      </div>
+      // <div className="row banner container fluid">
+         <Container  className="banner d-flex align-items-center justify-content-center">
+            <Row>
+               <Col>
+                  <div></div>
+               </Col>
+               <Col md="auto">
+                  <div id="header_text">
+                     <h1 className="display-2">{name}</h1>
+                     <h2 className="display-4">{preTitle} <span>{title}</span> {about}</h2>
+                  </div>
+               </Col>
+               <Col>
+                  <div></div>
+               </Col>
+            </Row>
+         </Container>
+      // </div>
       )
    }
 
