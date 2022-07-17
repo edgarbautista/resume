@@ -41,12 +41,12 @@ class Nested extends Component {
                     <div>
                         <Container>
                             <Row>
-                                <Col>
+                                <Col lg={true}>
                                     {split.leftItems.map((item, idx) => {
                                         return this.getLeftSection(item, idx)
                                     })}
                                 </Col>
-                                <Col>
+                                <Col lg={true}>
                                 {split.rightItems.map((item, idx) => {
                                     return this.getRightSection(item, idx)
                                 })}
