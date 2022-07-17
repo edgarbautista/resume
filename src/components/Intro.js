@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { hasAnyProps } from '../helpers/props';
 import profile from "./../images/profile.png";
+import profile2 from "./../images/profile2.png";
 import Flip from 'react-reveal/Flip';
 import ProfileIcon from './ProfileIcon';
 import _ from 'lodash'
@@ -45,7 +46,10 @@ class Intro extends Component {
          sizes,
          currentText: "",
          activeCardColor,
-         counter
+         counter,
+         activeImage: 0,
+         images: [profile, profile2],
+         stopCycle: false
       }
    }
 
@@ -152,7 +156,22 @@ class Intro extends Component {
       )
    }
 
-  render() {
+   componentDidMount() {
+      this.imageIntervalId = setInterval(() => {
+         if (!this.state.stopCycle) {
+            const activeImage = (this.state.activeImage + 1) === this.state.images.length ? 0 : this.state.activeImage + 1;
+            this.setState({
+               activeImage
+            })
+         }
+      }, 3500);
+   }
+
+   componentWillUnmount() {
+      clearInterval(this.imageIntervalId);
+   }
+
+   render() {
    if(!hasAnyProps(this.props.intro)) return null
     const {about} = this.props.intro
     return (
@@ -165,7 +184,7 @@ class Intro extends Component {
                       <br />
                       <br />
                       <br />
-                      <Image className="portrait profile-pic" src={profile} roundedCircle />
+                      <Image className="portrait profile-pic" src={this.state.images[this.state.activeImage]} roundedCircle onClick={() => this.setState({ stopCycle: !this.state.stopCycle })} />
                    </Container>
                 </Col>
                 <Col lg={6} fluid="true">
