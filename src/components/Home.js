@@ -130,8 +130,8 @@ class Home extends Component {
       if(!hasAnyProps(this.props.home)) return null
       const { name, title, about, preTitle } = this.props.home
       return (
-      // <div className="row banner container fluid">
-         <Container  className="banner d-flex align-items-center justify-content-center">
+      <div className="banner">
+         <Container  className="d-flex align-items-center justify-content-center">
             <Row>
                <Col>
                   <div></div>
@@ -147,7 +147,7 @@ class Home extends Component {
                </Col>
             </Row>
          </Container>
-      // </div>
+      </div>
       )
    }
 
