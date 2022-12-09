@@ -365,6 +365,7 @@
                "header": "",
                "bulletPoints": [
                   "The work encompasses the development and management of features around network statistics upload, storage, APIs, and visualization.",
+                  "Currently working on leading the effort to externalize our OLAP database to the cloud. It is currently embedded within the application. This work is cross-cutting as it deals with architecting the solution, vendor product validation and integration, the deployment pipelines, the implementation of the clients and APIs to consume the DB as a service, testing, migration of the data and maintenance.",
                   "Migrated time-series data from MySQL to ClickHouse."
                ],
                "more": {
