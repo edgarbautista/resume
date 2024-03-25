@@ -63,12 +63,12 @@ class App extends Component {
                 <Navigation currentEl={this.currentEl} sections={navigationSections} />
                 <Zoom>
                     <Home  switchBackground={this.state.data.switchBackground} currentEl={this.state.currentElementId} home={this.state.data.home} images={this.state.data.backgroundImages} />
-                </Zoom>
-                <Zoom delay={500}>
                     <Intro intro={this.state.data.intro} currentEl={this.state.currentElementId} />
                 </Zoom>
                 <Career career={this.state.data.career} />
-                <Education education={this.state.data.education} />
+                <Zoom>
+                    <Education education={this.state.data.education} />
+                </Zoom>
                 <Contact contact={this.state.data.contact} />
             </>
         )

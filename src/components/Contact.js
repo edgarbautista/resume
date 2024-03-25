@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import { hasAnyProps } from '../helpers/props';
 import { submitForm } from '../services/googleFormService';
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-// import ProfileIcon from './ProfileIcon'
 
 const EMAIL_REGEX = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/
 
@@ -126,41 +122,16 @@ class Contact extends Component {
       if (!hasAnyProps(this.props.contact)) return null
       const { name, street, city, state, zip, phone, email } = this.props.contact
       return (
-         <section id="contact">
-            {/*<Container>*/}
-               {/*<div>*/}
-               {/*   <h1 className="display-4">Contact Me</h1>*/}
-               {/*</div>*/}
-               {/*<Container>*/}
-               {/*   <a href="/resume/files/edgar_bautista_resume.pdf">*/}
-               {/*      <h2>Resume</h2>*/}
-               {/*      <ProfileIcon icon="pdf" color="white" size="5em" ></ProfileIcon>*/}
-               {/*   </a>*/}
-               {/*</Container>*/}
-               <Container>
-                  <Row>
-                     <Col>
-                        <div>
-                           {/*<h2>Address and Contact Info</h2>*/}
-                           <h3>
-                              {name}
-                              {street} <br />
-                              {city}, {state} {zip}<br />
-                              <span>{email}</span><br />
-                              <span>{phone}</span>
-                           </h3>
-                        </div>
-                     </Col>
-                     {/*<Col>*/}
-                     {/*   <h2>*/}
-                     {/*      <div className="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="edgarbautista"><script src='https://www.linkedin.com/in/edgarbautista?trk=profile-badge' type="text/javascript" alt="LinkedIn"></script></div>*/}
-                     {/*   </h2>*/}
-                     {/*</Col>*/}
-                  </Row>
-               </Container>
-               {/* </aside> */}
-            {/*</Container>*/}
-         </section>
+          <section id="contact">
+             <div>
+                <h3>
+                   {street} <br />
+                   {city}, {state} {zip}<br />
+                   <span>{email}</span><br />
+                   <span>{phone}</span>
+                </h3>
+             </div>
+          </section>
       );
    }
 }

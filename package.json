@@ -1,5 +1,5 @@
 {
-  "homepage": "http://edgarbautista.github.io/resume",
+  "homepage": "https://edgarbautista.github.io/resume",
   "name": "resume",
   "version": "0.1.0",
   "private": true,
@@ -20,6 +20,7 @@
     "react-expand-animated": "^1.0.2",
     "react-helmet": "^6.0.0",
     "react-icons": "^3.9.0",
+    "react-lazy-load-image-component": "^1.6.0",
     "react-page-loading-v2": "^1.0.2",
     "react-reveal": "^1.2.2",
     "react-rounded-image": "^2.0.15",
@@ -42,7 +43,7 @@
     "eject": "react-scripts eject",
     "s3": "s3cmd sync build/* s3://edgarbautista",
     "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "predeploy": "yarn run build"
   },
   "eslintConfig": {
     "extends": "react-app"

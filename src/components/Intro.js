@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { hasAnyProps } from '../helpers/props';
 import profile from "../images/profile.jpeg";
-import profile2 from "./../images/profile2.jpeg"
+import profilePh from "../images/profile_small.jpeg";
 import Flip from 'react-reveal/Flip';
 import ProfileIcon from './ProfileIcon';
 import _ from 'lodash'
@@ -10,9 +10,10 @@ import CardLayout from './CardLayout'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Image from 'react-bootstrap/Image'
 import Jump from 'react-reveal/Jump';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 class Intro extends Component {
 
@@ -48,7 +49,7 @@ class Intro extends Component {
          activeCardColor,
          counter,
          activeImage: 0,
-         images: [profile, profile2],
+         images: [profile, profilePh],
          stopCycle: false
       }
    }
@@ -147,41 +148,28 @@ class Intro extends Component {
       )
    }
 
-   componentDidMount() {
-      this.imageIntervalId = setInterval(() => {
-         if (!this.state.stopCycle) {
-            const activeImage = (this.state.activeImage + 1) === this.state.images.length ? 0 : this.state.activeImage + 1;
-            this.setState({
-               activeImage
-            })
-         }
-      }, 5500);
-   }
-
-   componentWillUnmount() {
-      clearInterval(this.imageIntervalId);
-   }
-
    render() {
-      if(!hasAnyProps(this.props.intro)) return null
+      if (!hasAnyProps(this.props.intro)) return null
       const {about} = this.props.intro
+      const height = 188;
+      const width = 200;
+      const placeHolder = <div style={ {width: width, height: height, backgroundColor: "grey"} } />
       return (
           <section id="intro">
              <h1 className="display-4">Introduction</h1>
              <Container fluid="xl">
-                <Row className="justify-content-center">
-                   <Col lg={6} fluid="true">
+                <Row fluid="true">
+                   <Col xs={4} md={4} fluid="center">
+                      <br/>
                       <Container>
-                         <br />
-                         <br />
-                         <br />
-                         <Image className="portrait profile-pic" src={this.state.images[this.state.activeImage]} roundedCircle onClick={() => this.setState({ stopCycle: !this.state.stopCycle })} />
+                         <LazyLoadImage placeholderSrc={this.state.images[1].src} className="portrait profile-pic"
+                                        src={this.state.images[this.state.activeImage]}
+                                        alt={"Profile image"} height={height} width={width}/>
                       </Container>
                    </Col>
-                   <Col lg={6} fluid="true">
+                   <Col lg={8} fluid="true">
+                      <br/>
                       <Container>
-                         <br/>
-                         <br/>
                          <h4 className="text-justify">{about.header}</h4>
                       </Container>
                    </Col>
@@ -189,16 +177,23 @@ class Intro extends Component {
              </Container>
              <br/>
              <br/>
-             <div id="show_details_card"  style={{ display: this.state.showX ? "block" : "none"}} onClick={this.handleExitIconClick}><ProfileIcon clickable={true} className="intro_icon" icon="close" color="grey" size="5em" /></div>
-             <br />
-             <Container><h4 className="text-justify" style={{ display: this.state.showX ? "block" : "none" }}>{this.getText()}</h4></Container>
-             <br />
+             <div id="show_details_card" style={{display: this.state.showX ? "block" : "none"}}
+                  onClick={this.handleExitIconClick}><ProfileIcon clickable={true} className="intro_icon" icon="close"
+                                                                  color="grey" size="5em"/></div>
+             <br/>
+             <br/>
              <div className="intro-cards">
                 <CardGroup>
-                   {about.bulletPoints.map((item, index) => <div key={index} onMouseEnter={() => this.onMouseEnterEvent(index)} onMouseLeave={() => this.onMouseExitEvent(index)}  onClick={() => this.handleIconClick(item.text, index)}>
+                   <Container><h4 className="text-justify"
+                                  style={{display: this.state.showX ? "block" : "none"}}>{this.getText()}</h4></Container>
+                   {about.bulletPoints.map((item, index) => <div key={index}
+                                                                 onMouseEnter={() => this.onMouseEnterEvent(index)}
+                                                                 onMouseLeave={() => this.onMouseExitEvent(index)}
+                                                                 onClick={() => this.handleIconClick(item.text, index)}>
                       <Jump spy={this.state.counter[index]}>
                          <AnchorLink href="#show_details_card">
-                            <CardLayout cardClass={this.state.activeCardColor[index]} header={item.header} a content={this.getContent(item, index)} />
+                            <CardLayout cardClass={this.state.activeCardColor[index]} header={item.header} a
+                                        content={this.getContent(item, index)}/>
                          </AnchorLink>
                       </Jump></div>)}
                 </CardGroup>
@@ -209,7 +204,7 @@ class Intro extends Component {
 }
 
 Intro.defaultProps = {
-   intro: { profile: null, bio: [], about: { header: null, bulletPoints: [] } }
+   intro: {profile: null, bio: [], about: {header: null, bulletPoints: []}}
 };
 
 export default Intro;

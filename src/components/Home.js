@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { hasAnyProps } from '../helpers/props';
-import { imageIndex, loadImagesSync } from '../helpers/imageHelper'
+import { imageIndex } from '../helpers/imageHelper'
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -79,13 +79,6 @@ class Home extends Component {
          })
 
          if (init) {
-            const background = await loadImagesSync(this.props.images)
-            const faces = await loadImagesSync(this.props.home.faces)
-            let pending = true
-            while(pending) {
-               pending = background.find(img => !img.complete) || faces.find(img => !img.complete)
-               await new Promise(resolve => setTimeout(resolve, 1000))
-            }
             init = false
          }
 

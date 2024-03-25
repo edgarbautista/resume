@@ -42,12 +42,12 @@ const decryptCvData = async (password, data) => {
 }
 
 const executeWithSessionCache = async (key, aSyncFn) => {
-    if (sessionStorage) {
-        let results = sessionStorage.getItem(key) || null;
+    if (window.sessionStorage) {
+        let results = window.sessionStorage.getItem(key) || null;
         if (!results) {
             results = await aSyncFn();
             if (results) {
-                sessionStorage.setItem(key, JSON.stringify(results));
+                window.sessionStorage.setItem(key, JSON.stringify(results));
             }
             return results;
         }
