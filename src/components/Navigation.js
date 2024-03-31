@@ -40,7 +40,7 @@ class Navigation extends Component {
                   <Nav className="mr-auto">
                     {
                       this.state.sections.filter(section => !_.isEmpty(section.display)).map(section => {
-                        return <AnchorLink className={`${section.name === this.state.sections[0] ? 'current-section ' : ''}nav-link`} href={`#${section.name}`}><div className={this.state.sectionsClass[section.name]}>{section.display}</div></AnchorLink>
+                        return <AnchorLink key={section.name} className={`${section.name === this.state.sections[0] ? 'current-section ' : ''}nav-link`} href={`#${section.name}`}><div className={this.state.sectionsClass[section.name]}>{section.display}</div></AnchorLink>
                       })
                     }
                   </Nav>

@@ -120,7 +120,7 @@ class Contact extends Component {
 
    render() {
       if (!hasAnyProps(this.props.contact)) return null
-      const { name, street, city, state, zip, phone, email } = this.props.contact
+      const { street, city, state, zip, phone, email } = this.props.contact
       return (
           <section id="contact">
              <div>

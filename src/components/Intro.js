@@ -14,6 +14,8 @@ import Jump from 'react-reveal/Jump';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import 'react-lazy-load-image-component/src/effects/blur.css';
+import Popup from "reactjs-popup";
+import 'reactjs-popup/dist/index.css';
 
 class Intro extends Component {
 
@@ -158,13 +160,17 @@ class Intro extends Component {
           <section id="intro">
              <h1 className="display-4">Introduction</h1>
              <Container fluid="xl">
-                <Row fluid="true">
-                   <Col xs={4} md={4} fluid="center">
+                <Row fluid="center">
+                   <Col fluid="true">
                       <br/>
                       <Container>
-                         <LazyLoadImage placeholderSrc={this.state.images[1].src} className="portrait profile-pic"
-                                        src={this.state.images[this.state.activeImage]}
-                                        alt={"Profile image"} height={height} width={width}/>
+                         <Row className="justify-content-center">
+                            <Col>
+                               <LazyLoadImage placeholderSrc={this.state.images[1]} placeholder={placeHolder}
+                                              src={this.state.images[this.state.activeImage]}
+                                              alt={"Profile image"} height={height} width={width}/>
+                            </Col>
+                         </Row>
                       </Container>
                    </Col>
                    <Col lg={8} fluid="true">
@@ -177,29 +183,34 @@ class Intro extends Component {
              </Container>
              <br/>
              <br/>
-             <div id="show_details_card" style={{display: this.state.showX ? "block" : "none"}}
-                  onClick={this.handleExitIconClick}><ProfileIcon clickable={true} className="intro_icon" icon="close"
-                                                                  color="grey" size="5em"/></div>
-             <br/>
-             <br/>
-             <div className="intro-cards">
-                <CardGroup>
-                   <Container><h4 className="text-justify"
-                                  style={{display: this.state.showX ? "block" : "none"}}>{this.getText()}</h4></Container>
-                   {about.bulletPoints.map((item, index) => <div key={index}
-                                                                 onMouseEnter={() => this.onMouseEnterEvent(index)}
-                                                                 onMouseLeave={() => this.onMouseExitEvent(index)}
-                                                                 onClick={() => this.handleIconClick(item.text, index)}>
-                      <Jump spy={this.state.counter[index]}>
-                         <AnchorLink href="#show_details_card">
-                            <CardLayout cardClass={this.state.activeCardColor[index]} header={item.header} a
-                                        content={this.getContent(item, index)}/>
-                         </AnchorLink>
-                      </Jump></div>)}
-                </CardGroup>
-             </div>
-          </section>
-      );
+             <div className="intro-cards container">
+                <Popup trigger={
+                   <CardGroup>
+                      {about.bulletPoints.map((item, index) => <div key={index}
+                                                                    onMouseEnter={() => this.onMouseEnterEvent(index)}
+                                                                    onMouseLeave={() => this.onMouseExitEvent(index)}
+                                                                    onClick={() => this.handleIconClick(item.text, index)}>
+                         <Jump spy={this.state.counter[index]}>
+                            <AnchorLink href="#show_details_card">
+                               <CardLayout cardClass={this.state.activeCardColor[index]} header={item.header} a
+                                           content={this.getContent(item, index)}>
+
+                               </CardLayout>
+                            </AnchorLink>
+                         </Jump>
+                      </div>)}
+                   </CardGroup>
+                } modal closeOnDocumentClick>
+                      <Container style={{overflow : 'auto'}}>
+                         <Row>
+                            {this.getText()}
+                         </Row>
+                      </Container>
+          </Popup>
+   </div>
+   </section>
+   )
+      ;
    }
 }
 

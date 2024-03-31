@@ -25,8 +25,8 @@ const decrypt = (secret, data) => {
 }
 
 const decryptCvData = async (password, data) => {
-    console.log('cvData', data);
     if (!password) return null;
+
     const response = decrypt(password, data);
     if (!response) {
         return null;
